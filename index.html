@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>Document</title>
+</head>
+
+<h1>GRAFOS</h1>
+<div id="selecao">
+    <div class="container">
+        <div class="Feliz">Feliz</div>
+        <div class="ValeReal">Vale Real</div>
+        <div class="SSdoCai">S. S. do Cai</div>
+        <div class="AltoFeliz">Alto Feliz</div>
+        <div class="BomPrincipio">Bom Principio</div>
+        <div class="Tupandi">Tupandi</div>
+        <div class="SaoVendelino">Sao Vendelino</div>
+    </div>
+
+    <div id="lines">
+
+    </div>
+
+
+    <div class="opcoes">
+        <div>
+            <label>Origem:</label>
+            <select name="origem" id="origem">
+                <option value="Feliz">Feliz</option>
+                <option value="Vale Real">Vale Real</option>
+                <option value="S. S. do Cai">S. S. do Cai</option>
+                <option value="Alto Feliz">Alto Feliz</option>
+                <option value="Bom Principio">Bom Principio</option>
+                <option value="Tupandi">Tupandi</option>
+                <option value="Sao Vendelino">São Vendelino</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Destino:</label>
+            <select name="destino" id="destino">
+                <option value="Feliz">Feliz</option>
+                <option value="Vale Real">Vale Real</option>
+                <option value="S. S. do Cai">S. S. do Cai</option>
+                <option value="Alto Feliz">Alto Feliz</option>
+                <option value="Bom Principio">Bom Principio</option>
+                <option value="Tupandi">Tupandi</option>
+                <option value="Sao Vendelino">São Vendelino</option>   
+            </select>
+        </div>
+    </div>
+    <button class="btn" id="btnCalcular">Calcular</button>
+    <output id="erro"></output>
+    <output id="caminho"></output>
+    <output id="distancia"></output>
+</div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,168 @@
+body, html{
+    background-color: darkgray;
+    font-family: sans-serif;
+    margin: 0 auto;
+    height: 90vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+#selecao {
+    font-size: 18px;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.opcoes {
+    padding: 10px;
+}
+
+
+
+.container {
+    width: 60%;
+    height: 50%;
+    padding: 2%;
+    position: relative;
+    display: flex;
+    border: 10px solid black;
+    border-radius: 5px;
+}
+
+.container div {
+    
+    color: white;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 10%;
+    width: 10%;
+    padding: 10px;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.Feliz {
+    top: 40%;
+    left: 55%;
+}
+
+.ValeReal {
+    top: 20%;
+    right: 5%;
+}
+
+.SSdoCai {
+    bottom: 1%;
+    left: 20%;
+}
+
+.AltoFeliz {
+    top: 10%;
+    left: 50%;
+}
+
+.BomPrincipio {
+    top: 50%;
+    left: 30%;
+}
+
+.Tupandi {
+    top: 43%;
+    left: 5%;
+}
+
+.SaoVendelino {
+    left: 20%;
+}
+
+#lines div{
+    position: absolute; 
+    width: 2px; 
+    background-color: black; 
+    border: 2px solid black;
+    transform-origin: top left;
+}
+
+.opcoes {
+    height: 5%;
+    width: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.opcoes div {
+    padding: 10px;
+}
+
+#origem, #destino{
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#btnCalcular {
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+#btnCalcular:hover{
+    background-color: #F0F0F0;
+    cursor: pointer;
+}
+
+#selecao output {
+    margin: 2px;;
+}
+
+@media (max-width: 860px) {
+    
+    #selecao {
+        height: 80%;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+    
+    .container {
+        width: 90%;
+        height: 60%;
+    }
+    
+    .container div {
+        border-radius: 50%;
+        height: 10%;
+        width: 17%;
+        padding: 10px;
+    }
+
+    .opcoes label {
+        font-size: 18px;
+    }
+
+}
