@@ -139,10 +139,12 @@ function mudaCorDoCaminho(vertices, caminho){
         let verticeHtml = document.querySelector(`.${vertice}`);
         verticeHtml.style.backgroundColor = 'blue';
     }
-    for (let cidade of caminho){
-        cidade = cidade.replace(/\./g, "").replace(/\s/g, '');
-        let cidadeHtml = document.querySelector(`.${cidade}`);
-        cidadeHtml.style.backgroundColor = 'green';
+    if (caminho != null){
+        for (let cidade of caminho){
+            cidade = cidade.replace(/\./g, "").replace(/\s/g, '');
+            let cidadeHtml = document.querySelector(`.${cidade}`);
+            cidadeHtml.style.backgroundColor = 'green';
+        }
     }
 }
 
